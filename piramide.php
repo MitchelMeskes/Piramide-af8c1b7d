@@ -6,7 +6,7 @@ echo "hoeveel lagen wil je Hebben?\n";
 for ($rij = 0; $rij <= $hoeveel; $rij++){
 
 
-        for ($volgorde = 0; $volgorde <= $rij; $volgorde++){
+        for ($volgorde = 1; $volgorde <= $rij; $volgorde++){
 
             echo "*";
         }
